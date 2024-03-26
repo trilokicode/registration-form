@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body{
+            background-color: wheat;
+        }
+        .main-container{
+            background-color: #f8f3f3;
+            width:max-content;
+            display: block;
+            border-radius: 1rem;
+            width: 300px;
+            height: 350px;
+            margin: 300px 500px;
+            text-align: center;  
+            overflow-x: auto;
+        }
+        .inside-container{
+            margin-left: 1rem;
+            margin-top: 1.7rem;
+        }
+        .form-design{
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+        .register{
+            margin-bottom: 1rem;
+        }
+        .form-control{
+            width: 240px;
+            height: 1.2rem;
+            align-items: center;
+            
+        }
+        .form-label{
+            opacity: .8;
+        }
+        .register{
+            background-color: blue;
+            border-radius: 5px;
+            color: #fff;
+            padding: 8px;
+            width: fit-content;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .form{
+            margin-top: 1.8rem;
+        }
+        
+    </style>
+</head>
+<body>
+    <section>
+        <div class="main-container">
+            <div class="inside-container">
+                <h2 class="r-form">Registration Form</h2>
+                <form action="/register" method="post" style="text-align: left;" class="form">
+                    
+                    <div class="form-design">
+                        <label for="name1" class="form-label">Name</label> 
+                        <br>
+                        <input type="text" name="" id="name1" class="form-control">
+                    </div>
+
+                    <div class="form-design">
+                        <label for="email1" class="form-label">Email</label> <br> 
+                        <input type="email" name="" id="email1" class="form-control">
+                    </div>
+
+                    <div class="form-design">
+                        <label for="password1" class="form-label">Password</label> <br> 
+                        <input type="password" name="" id="password1" class="form-control">
+                    </div>
+
+                    <button type="submit" class="register">Register</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
